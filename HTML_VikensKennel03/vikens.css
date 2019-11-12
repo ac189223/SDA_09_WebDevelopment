@@ -1,0 +1,106 @@
+body {
+  min-width: 700px;
+}
+
+header {
+  color: white;
+  background-color: grey;
+  font-family: arial;
+  text-align: center;
+  border: solid deeppink 1px;
+}
+
+nav {
+  color: white;
+  background: darkgrey;
+  font-family: arial;
+  text-align: center;
+  border: solid deeppink 1px;
+  height: 40px;
+  font-size: 20px;
+}
+
+ul.navBar {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#dogDetails{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+}
+
+li.navBar {
+  display: inline;
+}
+
+main {
+  color: white;
+  background: black;
+  font-family: arial;
+  border: solid deeppink 1px;
+  min-height: 60%;
+  min-height: 400px;
+}
+
+footer {
+  color: white;
+  background: darkgrey;
+  font-family: arial;
+  border: solid deeppink 1px;
+}
+
+img {
+  max-width: 50%;
+  max-height: 350px;
+  height: auto;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footerDiv {
+  color: white;
+  background: grey;
+  font-family: arial;
+  margin: 5px;
+  padding: 5px;
+  width: 28%;
+  height: 55px;
+  float: left;
+  border: solid deeppink 1px;
+}
+
+div#wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+table {
+  border: solid white 1px;
+}
+
+.news {
+  color: white;
+  background-color: grey;
+  width: 40%;
+  margin: 10px;
+  padding: 4px;
+}
+
+p, h1, h2, h3, h4 {
+  padding: 4px;
+}
+
+span.changeTextColor {
+  color: yellow;
+}

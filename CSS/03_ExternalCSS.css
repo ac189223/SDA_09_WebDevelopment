@@ -1,0 +1,19 @@
+body {
+  background-color: gray;
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 150%;
+}
+p {
+  color: pink;
+  font-family: courier;
+  font-size: 300%;
+}
+h1, p {
+  text-align: center;
+}
+h2 {
+  color: red;
+}
