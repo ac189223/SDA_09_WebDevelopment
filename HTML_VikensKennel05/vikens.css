@@ -1,0 +1,119 @@
+body {
+  color:#aaaaaa;
+  background: grey;
+}
+header {
+  color: white;
+  background: darkgrey;
+  font-family: arial;
+  text-align: center;
+  padding:10px;
+  border: solid deeppink 1px;
+}
+.all {
+  overflow:auto;
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+  float:left;
+  width:20%;
+  background: darkgrey;
+  text-align:center;
+  border: solid deeppink 1px;
+}
+nav a {
+  border: solid deeppink 1px;
+  font-family: arial;
+  background: #e5e5e5;
+  padding:8px;
+  margin:4px;
+  display:block;
+  color:black;
+  font-weight: bold;
+}
+main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  color: white;
+  background: black;
+  font-family: arial;
+  border: solid deeppink 1px;
+}
+.withTable {
+  float:right;
+  width:80%;
+  padding:0 20px;
+  color: white;
+  background: black;
+  font-family: arial;
+  border: solid deeppink 1px;
+}
+li {
+  margin: 0px;
+}
+.right {
+  background: darkgrey;
+  float:left;
+  width:20%;
+  padding:4px;
+  text-align:center;
+  color:black;
+  font-weight: bold;
+  border: solid deeppink 1px;
+}
+img {
+  max-width: 100%;
+  max-height: 350px;
+  height: auto;
+  float:center;
+  border: solid deeppink 1px;
+}
+footer {
+  background: darkgrey;
+  border: solid deeppink 1px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+.footerDiv {
+  color: black;
+  background-color:#e5e5e5;
+  font-family: arial;
+  font-size: 80%;
+  margin: 4px;
+  padding: 5px;
+  width: 32%;
+  height: 55px;
+  border: solid deeppink 1px;
+}
+span.changeTextColor {
+  color: yellow;
+}
+.news {
+  font-size: 80%;
+  color: white;
+  border: solid deeppink 1px;
+  background-color: grey;
+  width: 80%;
+  margin: 4px;
+  padding: 4px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  nav, main, .right, .withTable {
+    width:100%;
+  }
+  .footerDiv {
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  footer {
+    display:block;
+    height: 182px;
+  }
+}

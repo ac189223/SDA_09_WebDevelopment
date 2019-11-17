@@ -1,7 +1,6 @@
 body {
   min-width: 700px;
 }
-
 header {
   color: white;
   background-color: grey;
@@ -9,7 +8,14 @@ header {
   text-align: center;
   border: solid deeppink 1px;
 }
-
+a {
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 nav {
   color: white;
   background: darkgrey;
@@ -19,23 +25,19 @@ nav {
   height: 40px;
   font-size: 20px;
 }
-
 ul.navBar {
   list-style: none;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 #dogDetails{
     margin-left: 10px;
     margin-right: 10px;
     width: 50%;
 }
-
 li.navBar {
   display: inline;
 }
-
 main {
   color: white;
   background: black;
@@ -83,14 +85,7 @@ img {
   float: right;
 }
 
-a {
-  text-decoration: none;
-  font-family: arial;
-  font-weight: bold;
-  color: black;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 
 div#wrapper {
   width: 80%;
