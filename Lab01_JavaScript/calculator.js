@@ -1,34 +1,43 @@
-//const calculator = document.querySelector('.calculator');
-
+// clean on start
 function main() {
   clean();
 }
 
+// clean the display
 function clean() {
   const display = document.querySelector('#id-displayText');
   console.log('clean pressed');
   display.textContent = '';
+  display.value = '';
 }
 
+// find numbers and start writing in display
 function number(i) {
   const buttons = Array.from(document.querySelectorAll('div.button-number'));
-  const display = document.querySelector('#id-displayText');
   console.log('number pressed');
-//  calculator.dataset.firstValue = buttons[i].textContent;
-  display.textContent = display.textContent + buttons[i].textContent;
+  write(buttons, i)
 }
 
+// find operators and start writing in display
 function operator(i) {
   const buttons = Array.from(document.querySelectorAll('div.button-operator'));
-  const display = document.querySelector('#id-displayText');
   console.log('operator pressed');
-  display.textContent = display.textContent + buttons[i].textContent;
+  write(buttons, i)
 }
 
+// write in display
+function write(buttons, i) {
+  const display = document.querySelector('#id-displayText');
+  display.textContent = display.textContent + buttons[i].textContent.trim();
+  display.value = display.value + buttons[i].textContent.trim();
+}
+
+// count ant display result
 function result() {
   const display = document.querySelector('#id-displayText');
   console.log('result pressed');
-  display.textContent = eval(display.textContent);
+  display.value = eval(display.value);
+  display.textContent = display.value;
 }
 
 // this is important !!!
