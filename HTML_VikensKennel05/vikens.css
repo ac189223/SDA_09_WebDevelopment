@@ -33,6 +33,12 @@ nav a {
   color:black;
   font-weight: bold;
 }
+div.footerDiv a {
+  color:black;
+}
+.linkMain {
+  color: white
+}
 main {
   float:left;
   width:60%;
